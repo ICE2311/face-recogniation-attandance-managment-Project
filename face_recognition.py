@@ -12,7 +12,7 @@ from datetime import datetime
 
 # ==================== Attendance ====================
 def mark_attendance(self, i, r, n, d):
-    with open('Sushant.csv', 'r+', newline='\n') as f:
+    with open('Roshan.csv', 'r+', newline='\n') as f:
         myDatalist = f.readlines()
         name_list = []
         for line in myDatalist:
